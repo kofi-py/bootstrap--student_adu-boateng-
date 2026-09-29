@@ -8,9 +8,61 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!-- Step 1 - Header goes here -->
+     <header class="border-bottom">
+        <div class="container d-flex align-items-center gap-3 py-3">
+            <img src="https://placehold.co/56x56?text=Logo" alt="Site logo" width="56" height="56" class="rounded border">
+        </div>
+        <p class="fs-3 fw-bold mb-0">Site Title</p>
+        <p class="small text-body-secondary mb-0">A short tagline goes here</p>
+     </header>
     <!-- Step 2 - Navbar goes here -->
+     <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom py-2">
+        <div class="container">
+            <span class="navbar-brand d-md-none fw-semibold">Menu</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav nav-pills gap-2">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="page2.html">Page 2</a>
+                </li>
+            </ul>  
+            </div>
+        </div>
+    </nav>
     <!-- Step 3 - Main content goes here -->
+    <main class="container py-4 flex-grow-1 clearfix">
+        <h1 class="mb-3">Page Heading</h1>
+
+        <div class="float-md-start col-md-5 me-md-4 mb-3">
+            <div class="ratio ratio-16x9 bg-secondary-subtle border rounded">
+            <div class="d-flex align-items-center justify-content-center fw-bold">Image 16:9</div>
+            </div>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere
+             velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor 
+             fringilla.</p>
+        <p>Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
+            Praesent commodo cursus magna, vel scelerisque nisl cinsectetur et. Etiam porta sem malesuada magna 
+            mollis euismod.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, accusamus, odit quaerat dolor, quibusdam 
+            maiores saepe iusto architecto corrupti nobis ipsa sequi aut consequuntur hic beatae odio in pariatur facilis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur qui impedit quo sapiente 
+            laboriosam similique officiis maiores saepe labore rerum ipsa exercitationem aliquid, 
+            a ut ipsum atque natus dolorem ad.</p>
+    <!-- Add at least two more paragraphs so the text flows below the image -->
+    </main>
     <!-- Step 4 - Footer goes here -->
+    <footer class="bg-body-tertiary border-top py-3">
+        <div class="container text-center small text-body-secondary">
+            © 2026 Kofi Adu-Boateng · Built with Bootstrap 5.3 · For class use only
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
